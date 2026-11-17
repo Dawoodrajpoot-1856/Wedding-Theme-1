@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #faf7f2;
+  --foreground: #2c2724;
+}
+
+body {
+  background-color: #faf7f2 !important;
+  color: #2c2724 !important;
+  font-family: var(--font-cormorant), Georgia, serif;
+  overflow-x: hidden;
+}
+
+/* Custom fonts fallback taake koi text aam sans-serif na lage */
+.font-royal-title {
+  font-family: var(--font-pinyon), cursive !important;
+}
+
+.font-royal-sub {
+  font-family: var(--font-cinzel), serif !important;
+}
+
+.font-body {
+  font-family: var(--font-cormorant), serif !important;
+}
